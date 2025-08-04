@@ -60,3 +60,20 @@ var departments =student.department;
 
 var email = names + rolls + "." +departments +  "@ph.ac.bd";
 console.log(email);
+
+
+
+var experience = 30;
+var startingSalary = 45000;
+
+var increase = 1.05;
+var total = 1;
+
+for (var i = 0; i < experience; i++) {
+  total = total * increase;
+}
+
+var currentSalary = startingSalary * total;
+var formattedSalary = currentSalary.toFixed(2);
+
+console.log(formattedSalary);
