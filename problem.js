@@ -32,6 +32,21 @@ for (var day = 1; day <= lastDay; day++) {
   }
 }
 
+// problem four
+
+var fileName = "data.docx";
+
+
+if (fileName[0] === "#" || fileName.slice(-4) === ".pdf" || fileName.slice(-5) === ".docx")  {
+    console.log("Store");
+
+    
+}
+else(
+    console.log("Delete")
+)
+
+
 
 
 // problem five 
